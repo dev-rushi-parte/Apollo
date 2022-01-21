@@ -1,0 +1,589 @@
+.fix{
+     
+    width: 80%;
+    margin: auto;
+    top: 0;
+    position: sticky;
+    height: 120px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color: white;
+   
+   
+}
+.headimg{
+   
+    padding-top: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+   
+}
+ .loginimg{
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+   cursor: pointer;
+   
+ }  
+ .cartimg{
+     float: right;
+      margin-top: 30px;
+    margin-right: 10px;
+     cursor: pointer;
+ }
+ .covidmain{
+     height: 100%;;
+     width: 40%;
+     
+     float: right;
+     display: flex;
+     justify-content: space-between;
+ }
+ .covidmain>div{
+    width:23% ;
+    height: 100%;
+    cursor: pointer;
+ 
+ }
+ .covid{
+ 
+   margin-top: 20px;
+    text-decoration: underline;
+    font-size: 15PX;
+    font-weight: 550;
+    color: rgb(2,71,91);
+    font-family: sans-serif;
+    text-underline-offset: 7px;
+     cursor: pointer;
+ }
+.covidsmall{
+   margin-top: 10px;
+   color: rgb(85, 140, 155);
+   font-family: sans-serif;
+   font-size: 13px;
+   font-weight: 600;
+   line-height: 15px;
+    cursor: pointer;
+ }
+
+/* -----------------------------------home----------------- */
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(220,223,206);
+}
+
+#box{
+    width: 80%;
+    margin: auto;
+  background-color: white;
+}
+
+   .home{
+      width: 100%;
+      height: auto;
+     
+    
+
+ }
+ .doimg{
+     width: 100%;
+     height: 500px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .lh{
+     width: 32%;
+    
+ }
+ .lh h1{
+     color:rgb(2,71,91) ;
+     font-family: sans-serif;
+     font-size: 60px;
+     text-align: center;
+      cursor: pointer;
+ }
+ .lh p{
+     padding-top: 20px;
+      color:rgb(49, 119, 156) ;
+     font-family: sans-serif;
+     font-size: 20px;
+     text-align: left;
+     line-height: 25px;
+      cursor: pointer;
+
+ }
+ .rh{
+     width: 60%;
+     height: 100%;
+    
+ }
+ .rh img{
+     margin-left: 105px;
+     margin-top: 50px;
+      cursor: pointer;
+ }
+ .book{
+     width: 100%;
+     height: 71%;
+     
+ }
+ .one{
+     width: 100%;
+     height: 25%;
+     border: 1px solid teal;
+     margin-top: 20px;
+     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color:rgb(64, 107, 119) ;
+     display: flex;
+      cursor: pointer;
+ }
+ .two{
+      width: 100%;
+     height: 25%;
+     
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .two>div{
+     width: 45%;
+     height: 100%;
+     
+     border-radius: 10px;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+.man{
+    margin-top: 10px;
+    padding: 0;
+      background-color:rgb(64, 107, 119) ;
+  
+}
+.one>h4{
+   padding-top: 30px;
+    align-items: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+  background-color:rgb(64, 107, 119) ;
+    
+}
+.scope{
+    padding-top: 20px;
+    height: 60px;
+    
+    
+}
+.scoperh{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 60px;
+  
+}
+.flex{
+    display: flex;
+}
+.flex>h4{
+    padding-top: 30px;
+    padding-left: 10px;
+    color:rgb(64, 107, 119) ;
+}
+#slider{
+    height:180px;
+    overflow: hidden;
+   
+    width:90%;
+    margin: 30px auto;
+}
+#slider>figure>div{
+    float:left;
+    width:20%;
+    height:20%;
+
+}
+#slider>figure>img{
+    width:50%;
+    float: left;
+    border-radius: 10px;
+     
+}
+
+
+
+#slider>figure{
+     position: relative;
+   
+    width:500%;
+  animation:10s move infinite;
+}
+@keyframes move{
+  0%{
+      left: 0%;
+
+  }
+  10%{
+      left: 0%;
+      
+  }
+  12%{
+      left: -100%;
+      
+  }
+  22%{
+      left: -100%;
+      
+  }
+  24%{
+      left: -200%;
+      
+  }
+  34%{
+      left: -200%;
+      
+  }
+  36%{
+      left: -300%;
+      
+  }
+  46%{
+      left: -300%;
+      
+  }
+  48%{
+      left: -400%;
+      
+  }
+  58%{
+      left: -400%;
+      
+  }
+  
+  60%{
+      left: -300%;
+      
+  }
+  70%{
+      left: -300%;
+      
+  }
+  72%{
+      left: -200%;
+      
+  }
+  82%{
+      left: -200%;
+      
+  }
+  84%{
+      left: -100%;
+      
+  }
+  94%{
+      left: -100%;
+      
+  }
+  96%{
+      left: 0%;
+      
+  }
+
+}
+  @media only screen and (min-width: 375px) and (max-width: 900px){
+
+  .fix2{
+  
+    width: 80%;
+    bottom: 0;
+    z-index: 99;
+    position: fixed;
+    box-shadow: 0 -10px 30px 0 rgb(0 0 0 / 60%);
+    min-height: 65px;
+    align-items: flex-end
+  }
+  #slider{
+    height:280px;
+    overflow: hidden;
+    width:90%;
+    margin: 30px auto;
+}
+
+  .doimg{
+     width: 90%;
+     height: 405px;
+    
+     margin: auto;
+     margin-top: 30px;
+     display: block;
+   
+ }
+
+ .lh{
+     width: 100%;
+     height: auto;
+     
+ }
+ .lh h1{
+     color:rgb(2,71,91) ;
+     font-family: sans-serif;
+     font-size: 60px;
+     text-align: left;
+      cursor: pointer;
+ }
+ .lh p{
+     padding-top: 20px;
+      color:rgb(49, 119, 156) ;
+     font-family: sans-serif;
+     font-size: 20px;
+     text-align: left;
+     line-height: 25px;
+      cursor: pointer;
+
+ }
+ .vaccine>div{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+  
+ }
+
+
+
+.vaccination{
+    margin: auto;
+    width: 90%;
+    height: 100px;
+   
+    margin-top: 80px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   color: rgb(91,185,144);
+   font-size: 18px;
+   padding: 20px 0 0 20px;
+}
+.vaccine{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 50px;
+}
+.vaccine>div{
+ 
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(240, 136, 98);
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.img{
+    width: 90%;
+    height: 180px;
+    margin: auto;
+    margin-top: 30px;
+}
+.articals{
+    width: 90%;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.top{
+    width: 100%;
+    height: 120px;
+   
+    background-image: url(https://newassets.apollo247.com/images/ecosystem-banner.jpg);
+    border-radius: 20px 20px 0 0;
+}
+.top>h1{
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.top>p{
+    padding-left: 20px;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+}
+.blog{
+ width: 100%;
+ height: 140px;
+
+ display: flex;
+}
+.div1{
+    width: 58%;
+    height: 100%;
+   
+}
+.div2{
+    width: 40%;
+    height: 100%;
+    
+}
+hr{
+    border-top: 1px dashed rgb(140,137,131);
+}
+.div1>h3{
+    padding: 40px 0 20px 20px;
+    color:rgb(91,185,144) ;
+    font-family: sans-serif;
+}
+.div1>p{
+    padding: 0px 0 0px 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(199,199,199);
+}
+.div2>div{
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 20px;
+    color: rgb(209, 103, 65);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.p{
+    padding: 10px 0 0 10px;
+    font-family: sans-serif;
+}
+.mental{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+}
+.mental>div{
+    width: 30%;
+    height: 60%;
+    border: 1px solid rgb(2,71,91);
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.mental>div>p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color:rgb(2,71,91) ;
+    border-radius: 15px;
+}
+.text{
+    width: 100%;
+    height: auto;
+   
+    margin-top: 50px;
+    color: rgb(30, 65, 58);
+}
+.text>p{
+    font-weight: bold;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.text>span{
+   
+    font-family: sans-serif;
+    padding-left: 20px;
+   
+}
+.ul{
+    padding: 10px 0 10px 90px;
+}
+li{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.bot{
+    padding-bottom: 20px;
+}
+
+/* -------------------------------footer------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    background-color: rgb(2,13,17);
+}
+.img1{
+    text-align: center;
+}
+.image{
+   
+    padding-top: 50px;
+    height: 130px;
+    width: 150px;
+}
+.head{
+    font-weight: bold;
+    color: rgb(253,184,23);
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.dot::before{
+    content: ' \2022';
+    font-size: 30px;
+    margin-right: 10px;
+}
+.dot1::before{
+    content: ' \2022';
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.dot1{
+      color: white;
+      font-family: sans-serif;
+      margin-left: 10px;
+  
+}
+#head1{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    
+}
+#head2{
+    margin-top: 100px;
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    margin-top: 110px;
+   
+
+}

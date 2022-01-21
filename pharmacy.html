@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="pharmacy.css">
+</head>
+<body>
+    <!-- ---------------------------navbar----------------- -->
+   <div class="fix">
+        <img class="headimg"; src="https://newassets.apollo247.com/images/ic_logo.png";
+        alt="apllo";
+        height="70%";
+        width="9%";>
+        <img class="loginimg"; src="data:image/png;base64,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";
+        alt="login";
+        height="50%";
+        width="5%";
+        >
+        <img class="cartimg"; src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=170667a&w=0&h=kEh5VLsTHukWc7xf2BvUs8ssqS_d7vkK0-xU3MDpO7s=";
+        alt="cart";
+        height="50%";
+        width="5%";>
+
+        <div class="covidmain";>
+           
+        <div><p class="covid";>DOCTORS</p>
+         <div class="covidsmall";><span >Consult<br> online</span> </div></div>
+        <div><p class="covid";>PHARMACY</p>
+        <div class="covidsmall";><span >Consult<br> online</span> </div></div>
+         <div>  <p class="covid";>LAB TESTS</p>
+        <div class="covidsmall";><span >Consult<br> online</span> </div>
+         </div>
+        <div> <p class="covid";>COVID-19</p>
+         <div class="covidsmall";><span >Latest<br> Update</span> </div></div>       
+            
+         </div>
+    
+    </div>
+    
+
+
+    <!-- ------------------------pharmacy---------------- -->
+    <div class="box";>
+        <div class="head">
+               <p>Covid Essentials</p>
+                <p>Health Condition</p>
+                <p>Ayurveda</p>
+                <p>Health Device</p>
+                <p>Baby Care</p>
+                <p>Personal Care</p>
+                <p>Home Essentials</p>
+                <p>health & Nutrition</p>
+                <p>Apollo Life</p>
+
+          </div>
+          <hr>
+          <div class="condition">
+              <p>SHOP BY HEALTH CONDITION</p>
+              <hr class="line">
+              <div id="flex">
+
+              </div>
+
+          </div>
+
+          <div class="condition">
+              <p>COVID CARE AND PROTECTION</p>
+              <hr class="line">
+              <div id="one">
+
+              </div>
+
+          </div>
+
+          <div class="condition">
+              <p>HOT SELLER</p>
+              <hr class="line">
+              <div id="two">
+
+              </div>
+
+          </div>
+
+             
+    <div class="txt";>
+        <p>Apollo 24|7 Specialities - Expertise You Can Trust</p>
+        <span class="txtmain">
+            A medical specialty is a specific area of medical practice that mainly focuses on a defined 
+            set of diseases, patients, philosophy, or skills. Examples include Paediatrics, Dermatology,
+             Psychiatry, Gynaecology, and more. <br><br>
+             Apollo 24|7 offers advanced services for a range of medical specialities, including:
+        </span>
+
+        <ul class="ul">
+            <li> <p class="bold";>Dermatology</p> - A specialised branch of medicine that focuses on hair, 
+                nails, and skin-related disorders. Dermatology also encompasses conditions that affect 
+                the thin lining of your mouth, eyelids, and nose.</li>
+
+            <li><p class="bold";>Obstetrics and Gynaecology </p>- Two major medical specialities that focus on women's 
+                reproductive health. Obstetrics involves care during pregnancy, childbirth and after-delivery, 
+                while gynaecology specialises in issues related to women's reproductive health.</li>   
+
+
+             <li><p class="bold";>General Physician/Internal Medicine </p>- General Physicians are highly experienced medical 
+                 doctors who provide a broad range of non-surgical medical and health care to their patients. 
+                 An internal medicine physician is a specified medical doctor who is highly proficient in
+                  internal medicine.</li>   
+
+            <li><p class="bold";>Paediatrics</p> - It majorly focuses on the health and medical care of children, infants, and young adults.</li>  
+
+            <li><p class="bold";>Psychiatry </p>- A specialised area of medicine that focuses majorly on the detection, treatment,
+                 and prevention of emotional, behavioural, and mental health disorders. </li>
+
+            <li><p class="bold";>Neurology</p> - It is a specific medical branch that focuses on diagnosing and treating nervous
+                 system disorders, which includes the brain, nerves, muscles, and blood vessels.</li> 
+
+            <li><p class="bold";>Endocrinology</p> - A specific area of medicine that is related to the study of the endocrine
+                 system. The endocrine glands produce hormones that help monitor various functions in the body,
+                  including metabolism, growth, and development. </li>   
+
+            <li><p class="bold";>Cardiology</p> - It is a specialty of internal medicine concerned with heart-related disorders. 
+                Cardiology focuses on detecting and treating electrophysiology, congenital heart defects, heart
+                 failure, coronary artery, valvular heart disease, and other related conditions.</li>   
+
+             <li><p class="bold";>Gastroenterology/GI Medicine</p> - A specific branch of medicine that mainly focuses on the functions 
+                 and diseases of the digestive tract, liver bile ducts, gallbladder, and pancreas. </li>  
+                 
+            <li><p class="bold";>COVID Consult</p> - COVID-19 also known as novel coronavirus may trigger infections of the lower 
+                and upper respiratory tracts. If you are experiencing body ache, shortness of breath,
+                 dry cough, or fever, you must get an online consultation with the Apollo 24|7 experts.</li>    
+                 
+            <li><p class="bold";>Orthopaedics</p> - A specific branch of medicine that majorly focuses on treating injuries and 
+                diseases related to the musculoskeletal system of the body.</li>    
+                
+            <li><p class="bold";>Family Physician</p> - A medical doctor who provides care to people of all age groups and gender. 
+                A family physician specialises in diagnosing chronic conditions, checking for signs or symptoms,
+                 providing preventative care, and referring people to specialists, if needed. </li>    
+        </ul>
+        <p>Why Choose Online Consultation?</p>
+        <span class="txtmain">There are several ways to reach out to a doctor without the need to visit a hospital or clinic,
+             all thanks to technology. With the online facility available, doctor consultations have become 
+             easier, which can help you get the right health care.<br><br>
+            Benefits for choosing Apollo 24|7's online doctor consultations: </span>
+        
+         <ul class="ul2">
+             <li>Highly-qualified doctors are available 24x7 for you</li>
+             <li>Emergency medical services are available </li>
+             <li>Get online consultations within 15 minutes</li>
+             <li>Affordable rates and personalised solutions</li>
+             <li>Instant online consultations anytime, anywhere</li>
+         </ul>   
+    </div>
+
+          
+
+          </div>
+
+
+
+    </div>
+
+    <!-- -------------------------footer--------------------- -->
+
+     <div class="footer">
+      <div class="img1";>><img class="image" src="https://newassets.apollo247.com/images/ic_logo.png"
+      alt="img";></div>
+   
+    <div id="head1"><p class="head";>About Apollo 247</p>
+    <span class="dot1";>About Us</span>
+    <span class="dot1";>Contact Us / Grievance</span>
+    <span class="dot1";>FAQs</span>
+    <span class="dot1";>Health Queries</span>
+    <span class="dot1";>Terms and Conditions</span>
+    <span class="dot1";>Returns Policy</span>
+    <span class="dot1";>Refund Policy</span>
+    <span class="dot1";>Privacy Policy</span>
+    <span class="dot1";>Apollo 247 Android App</span>
+    <span class="dot1";>Apollo 247 iOS App</span>
+    <span class="dot1";>Apollo 247 Sitemap</span>
+    <span class="dot1";>Online Doctor App</span>
+    <span class="dot1";>Online Medicine App</span>
+    <span class="dot1";>Apollo Pharmacy</span>
+     <span class="dot1";>Hospitals And Clinics</span>
+    </div>
+
+       <div id="head2"><p class="head";>Services</p>
+    <span class="dot1";>Online Doctor Consultation</span>
+    <span class="dot1";>Apollo Circle Membership</span>
+    <span class="dot1";>Online Medicines</span>
+    <span class="dot1";>Project Kavach</span>
+    <span class="dot1";>Cough Scanner</span>
+    <span class="dot1";>Apollo Pro Health Program</span>
+    <span class="dot1";>Covid Vaccine Update</span>
+    <span class="dot1";>Doctors by Specialty</span>
+    <span class="dot1";>Doctors by City</span>
+    <span class="dot1";>All Doctors List</span>
+    
+    </div>
+
+      <div id="head2"><p class="head";>Top Specialties</p>
+    <span class="dot1";>Covid Consultation</span>
+    <span class="dot1";>Consult Physicians</span>
+    <span class="dot1";>Consult Dermatologists</span>
+    <span class="dot1";>Consult Paediatricians</span>
+    <span class="dot1";>Consult Gynaecologists</span>
+    <span class="dot1";>Consult Gastroenterologists</span>
+    <span class="dot1";>Consult Cardiologists</span>
+    <span class="dot1";>Consult Dietitians</span>
+    <span class="dot1";>sConsult ENT Specialists</span>
+    <span class="dot1";>Consult Geriatricians</span>
+    
+    </div>
+
+    
+      <div id="head2"><p class="head";>Book Lab Tests at Home</p>
+    <span class="dot1";>RT PCR Test At Home</span>
+    <span class="dot1";>Book Lab Tests at Home</span>
+    <span class="dot1";>Renal Profile (KFT, RFT Test)</span>
+    <span class="dot1";>Hemogram Test</span>
+    <span class="dot1";>Lipid Profile Test</span>
+    <span class="dot1";>Thyroid Profile Test (T3 T4 Tsh Test)</span>
+    <span class="dot1";>D Dimer Test</span>
+    <span class="dot1";>Urine Culture Test</span>
+    <span class="dot1";>Complete Blood Count (CBC Test)</span>
+    <span class="dot1";>Liver Function Test (LFT Test)</span>
+    
+    </div>
+    <div id="head2"><p class="head";>Product Categories</p>
+    <span class="dot1";>View All Brands</span>
+    <span class="dot1";>Health Care</span>
+    <span class="dot1";>Personal Care</span>
+    <span class="dot1";>Baby Care</span>
+    <span class="dot1";>Nutrition</span>
+    <span class="dot1";>Healthcare Devices</span>
+    <span class="dot1";>Beauty Skin Care</span>
+    <span class="dot1";>Immunity Boosters</span>
+    <span class="dot1";>Coronavirus Prevention</span>
+    <span class="dot1";>Diabetes Care</span>
+    <span class="dot1";>Patanjali Coronil Kit</span>
+    <span class="dot1";>Mamaearth Products</span>
+    
+    </div>
+
+
+     </div>
+    
+</body>
+</html>
+<script src="pharmacy.js">
+
+</script>

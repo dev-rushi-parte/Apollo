@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ----------------------------navbar-------------------------- */
+
+.fix{
+     
+    width: 80%;
+    margin: auto;
+    top: 0;
+    position: sticky;
+    height: 130px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   background-color: white;
+   
+   
+}
+.headimg{
+   
+    padding-top: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+   
+}
+ .loginimg{
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+   cursor: pointer;
+   
+ }  
+ .cartimg{
+     float: right;
+      margin-top: 30px;
+    margin-right: 10px;
+     cursor: pointer;
+ }
+ .covidmain{
+     height: 100%;;
+     width: 40%;
+     
+     float: right;
+     display: flex;
+     justify-content: space-between;
+ }
+ .covidmain>div{
+    width:23% ;
+    height: 100%;
+    cursor: pointer;
+ 
+ }
+ .covid{
+ 
+   margin-top: 20px;
+    text-decoration: underline;
+    font-size: 15PX;
+    font-weight: 550;
+    color: rgb(2,71,91);
+    font-family: sans-serif;
+    text-underline-offset: 7px;
+     cursor: pointer;
+ }
+.covidsmall{
+   margin-top: 10px;
+   color: rgb(85, 140, 155);
+   font-family: sans-serif;
+   font-size: 13px;
+   font-weight: 600;
+   line-height: 15px;
+    cursor: pointer;
+ }
+
+/* 
+---------------------------------cart--------------------- */
+
+body{
+    background-color: rgb(220,223,206);
+}
+
+.main{
+    width: 80%;
+    height: 600px;
+    
+    margin: auto;
+    background-color: rgb(247,248,245);
+}
+.text{
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.text>h4{
+    padding-top: 20px;
+}
+.img{
+    text-align: center;
+   margin-top: 160px;
+}
+.img>p{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(33,120,103);
+}
+.img>input{
+    background-color: rgb(253,184,23);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+/* 
+--------------------------------footer------------------------ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    background-color: rgb(2,13,17);
+}
+.img1{
+    text-align: center;
+}
+.image{
+   
+    padding-top: 50px;
+    height: 130px;
+    width: 150px;
+}
+.head{
+    font-weight: bold;
+    color: rgb(253,184,23);
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.dot::before{
+    content: ' \2022';
+    font-size: 30px;
+    margin-right: 10px;
+}
+.dot1::before{
+    content: ' \2022';
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.dot1{
+      color: white;
+      font-family: sans-serif;
+      margin-left: 10px;
+  
+}
+#head1{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    
+}
+#head2{
+    margin-top: 100px;
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    margin-top: 110px;
+   
+
+}
+ 
