@@ -1,0 +1,246 @@
+ #containerP{
+            width: 30%;
+            margin: auto;
+            height: 600px;
+           margin-top: 20px;
+
+        }
+        #imagep{
+            display: flex;
+            width: 110px;
+            height: 50px;
+            justify-content: space-between;
+            margin: auto;  
+        }
+
+        #imagep > img{
+            border-radius: 50%;
+        }
+
+        #imagep > img:hover,#signbutton ~ p,#signbutton{
+            cursor: pointer;
+        }
+
+        .create{
+            text-align: center;
+            margin: 50px;
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 35px;
+            font-family: Montserrat, sans-serif;
+        }
+
+        #containerP > p{
+            margin-bottom: 15px;
+            font-family: Montserrat, sans-serif;
+            line-height: 22.4px;
+            font-weight: 200;
+            font-size: 22px;
+            text-decoration: none solid rgb(0, 0, 0);
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+
+        #containerP > input {
+            width: 99%;
+            height: 45px;
+            border: 1px solid rgb(216,216,216);
+            outline: 0px;
+            font-size: 18px;
+        }
+       
+        #containerP > div{
+            width: 95%;
+            height: 25px;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgb(253,184,23);
+            color: white;
+            font-size: 25px;
+            font-weight: 600px;
+            padding: 12px;
+            border-radius: 2%;
+        }
+        #signbutton ~ p{
+            text-align: center;
+           
+        }
+        #signbutton ~ p:hover{
+            color: rgb(16, 214, 214);
+            text-decoration: underline;
+            font-weight: 100;
+            
+        }
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        #runningtext{
+            background-color: #000;
+            height: 100px;
+            
+        }
+        .text-stroke {
+            -webkit-text-stroke: 1px white;
+            font-weight: 700;
+           
+        }
+
+        .text-white {
+            color: #fff;
+            font-weight: 700;
+            
+        }
+        .text-center{
+            font-size: 35px;
+            color: #000;
+            padding-top: 0.8em;
+        }
+        .firstLightBlack{
+            height: 85px;
+            background-color: rgb(28,28,28);
+            color: white;
+        }
+        .firstLightBlack > div{
+            width: 60%;
+            justify-content: space-around;
+            display: flex;
+                margin: auto;
+            height: 85px;
+        }
+        .firstLightBlack > div > div{
+            align-items: center;
+            width: 21%;
+            display: flex;
+                justify-content: space-between;
+            
+          
+        }
+        .secondlightblack{
+            height: 80px;
+            background-color: rgb(44,44,44);
+            color: rgb(143,143,143);
+        }
+        .secondlightblack > p{
+            padding-top: 15px;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+        }
+        .lastblack{
+            height: 600px;
+            background-color: #000;
+            margin: auto;
+            padding-top: 50px;
+        }
+      .lastblack1{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 32% 60%;
+        grid-template-rows: 400px;
+        grid-gap: 5%;
+      }
+
+      .lastblack1 > div > div > input{
+        width:210px; 
+        margin-right: 10px; 
+        height: 37px;
+        background-color: transparent;
+        border: 1px solid rgb(144,144,144);
+        outline: 0px;
+        color:rgb(144,144,144);
+        padding-left: 10px;
+        color: rgb(144,144,144);
+        border-radius: 3px;
+      }
+      .lastblack1 > div > div > button{
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        width: 36%;
+        background-color: transparent;
+      
+      }
+      .lastblack1 > div > div > button:hover{
+          background-color: green;
+      }
+      .lastblack1 > div > img{
+        height: 50px; 
+        margin-bottom: 35px;
+      }
+      .lastblack1 > div  >p{
+        color: rgb(144,144,144); 
+        font-size: 17px;
+        padding-right: 18px;
+      }
+      .threesmall{
+          display: flex;
+            justify-content: space-around;
+      }
+      .threesmall > div{
+          width: 30%;
+          justify-content: space-around;
+      }
+      .threesmall li,h3{
+          color: rgb(144,144,144);
+          padding: 4px;
+          list-style-type: none;
+          cursor: pointer;
+      }
+      .threesmall h3{
+          color: white;
+          margin-bottom: 15px;
+
+      }
+      .color-icon{
+         color:white;
+         font-size: 30px;
+         cursor: pointer;
+
+      }
+
+      .presentS{
+        display: flex;
+         width: 15%;
+         margin-top: 20px; 
+         justify-content: space-between;
+         margin-left: 10%; 
+      }
+      .presentS~div{
+        display: flex; 
+        width: 80%; 
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .presentS~div~p{
+        color: white;
+        text-align: center;
+         margin-top: 25px;
+         margin-bottom: 200px;
+      }
+
+      .presentS~div>div{
+        display:flex;
+        height: 60px;
+        width: 50%;
+      }
+
+      .presentS~div>div>h3{
+
+        color: white; 
+        margin-top: 15px;
+        font-size: 18px;
+        cursor: default;
+      }
+
+      .presentS~div>div>a{
+        margin-left: 2%;
+      }
+
+      .firstLightBlack h3{
+          color: white;
+      }
+      body{
+           background-color: rgb(227,218,219);
+      }
